@@ -11,14 +11,14 @@ A project by Suvayan Nath ([@Rellik-7](https://github.com/Rellik-7)) and Eshu Pa
 ## Problem Statement
 Imagine you have a bunch of files that need to be turned into usable software. Some files can only be worked on after their essential parts are ready and available. Once a file is ready, it takes a bit of time for everyone to access it. But there's a problem: sometimes files end up waiting for each other in a loop, preventing any progress and causing system issues. This is like a traffic jam. Also, because of the waiting times, servers might sit around doing nothing for too long, which can lead to missed deadlines.
 
-# Metaheuristic Technique
+## Metaheuristic Technique
 We modify the standard genetic algorithm (GA) and create a specific set of variables or chromosome for our problem. Our adapted GA works well for permutation problems, and we detail a step-by-step procedure. Our approach combines goals of meeting file completion deadlines and minimizing tardiness into a single objective. With I files having attributes like deadlines, start times, compilation times, and goals.
 We adjust the regular genetic algorithm (GA) and design a particular set of variables or chromosome tailored to our issue. Our customized GA is effective for permutation challenges, and we outline a step-by-step process. Our method unites the aims of meeting file completion deadlines and reducing lateness into a single objective. Among 'I' files with characteristics such as deadlines, start times, compilation durations, and goals, we establish the objective F using the provided pseudo-code.
 
-# Mathematical Technique-
+## Mathematical Technique-
 We adjust the regular genetic algorithm (GA) and design a particular set of variables or chromosome tailored to our issue. Our customized GA is effective for permutation challenges, and we outline a step-by-step process. Our method unites the aims of meeting file completion deadlines and reducing lateness into a single objective. Among 'I' files with characteristics such as deadlines, start times, compilation durations, and goals, we establish the objective F using the provided pseudo-code.
 
-# Conclusion
+## Conclusion
 Our example underscores the superiority of mathematical formulation over metaheuristic techniques like GA. Yet, both approaches carry their own strengths and weaknesses. Metaheuristic techniques allow us to tackle black box problems even without a mathematical model, whereas mathematical formulations hinge on such models being available. While mathematical formulations are resource-intensive, they offer guaranteed optimal solutions when appropriately constructed. In contrast, metaheuristic techniques lack such assurances, necessitating testing with various initial populations, which still might not yield the best solution.
 
 Another notable drawback of our meta-heuristic approach is its sensitivity to random seeds and hyperparameters. The optimal solution is only attainable for specific seeds within a fixed number of iterations. Certain seeds might entirely fail to produce a viable solution.
