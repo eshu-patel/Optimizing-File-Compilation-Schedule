@@ -1,4 +1,4 @@
-# File Compilation Optimization
+# Optimizing-File-Compilation-Schedule
 
 An optimization project to explore meta-heuristic and mathematical methods to solve the problem of scheduling file compilation on multiple servers.
 
@@ -29,4 +29,4 @@ We apply both approaches mentioned above to multiple examples. In majority of th
 Our example underscores the superiority of mathematical formulation over metaheuristic techniques like GA. Yet, both approaches carry their own strengths and weaknesses. Metaheuristic techniques allow us to tackle black box problems even without a mathematical model, whereas mathematical formulations hinge on such models being available. While mathematical formulations are resource-intensive, they offer guaranteed optimal solutions when appropriately constructed. In contrast, metaheuristic techniques lack such assurances, necessitating testing with various initial populations, which still might not yield the best solution.
 
 Another notable drawback of our meta-heuristic approach is its sensitivity to random seeds and hyperparameters. The optimal solution is only attainable for specific seeds within a fixed number of iterations. Certain seeds might entirely fail to produce a viable solution.
-# Optimizing-File-Compilation-Schedule
+
